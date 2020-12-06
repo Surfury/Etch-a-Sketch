@@ -36,7 +36,3 @@ main{
     outline: 2px dashed #ccc;
     margin:auto;
 }
-#advice{
-    opacity:0;
-    transition: opacity 1s;
-}
