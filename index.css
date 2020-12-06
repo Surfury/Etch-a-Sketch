@@ -36,3 +36,6 @@ main{
     outline: 2px dashed #ccc;
     margin:auto;
 }
+#advice{
+    visibility: hidden;
+}
