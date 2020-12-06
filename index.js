@@ -33,3 +33,4 @@ document.querySelector("div.grid").addEventListener("mouseover",() => document.g
 
 createGrid(resize.value);
 resize.addEventListener('change',() => createGrid(resize.value));
+alert('Press the control over with the mouse over the sheet to draw');
