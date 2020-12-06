@@ -18,6 +18,7 @@ function createGrid(squaresPerSide) {
         container.appendChild(cell[i]);
     }
     document.querySelectorAll("span").forEach(E => E.addEventListener('mouseover',(M) => {
+        document.getElementById("advice").visibility="visible";
         if (M.ctrlKey) {
             if (rainbow.checked===false) {
                 M.target.style.backgroundColor=colour.value;
