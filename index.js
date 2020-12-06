@@ -29,7 +29,7 @@ function createGrid(squaresPerSide) {
     }));
 }
 document.querySelector("div.grid").addEventListener("mouseleave",() => document.getElementById("advice").opacity=0);
-document.querySelectorAll("div.grid").addEventListener("mouseover",() => document.getElementById("advice").opacity=1);
+document.querySelector("div.grid").addEventListener("mouseover",() => document.getElementById("advice").opacity=1);
 
 createGrid(resize.value);
 resize.addEventListener('change',() => createGrid(resize.value));
